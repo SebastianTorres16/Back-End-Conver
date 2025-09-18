@@ -18,9 +18,9 @@ app.use('/api/temperatura', temperaturaRoutes);
 app.use('/api/moneda', monedaRoutes);
 
 app.get('/', (req, res) => {
-    res.json({ mensaje: 'API de Conversiones funcionando correctamente' });
+    res.json({ mensaje: 'Correcto funcionamiento' });
 });
 
 app.listen(PORT, () => {
-    console.log(`Servidor ejecutándose en puerto ${PORT}`);
+    console.log(`El servidor se ejecuta en el puerto ${PORT}`);
 });
